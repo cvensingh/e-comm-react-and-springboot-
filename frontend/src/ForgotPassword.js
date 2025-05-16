@@ -80,22 +80,24 @@ export default function ForgotPassword() {
     }
   };
 
-  return (
-    <div className="vh-100 d-flex justify-content-center align-items-center bg-light">
-      <div className="d-flex shadow rounded w-50 bg-white">
-        <div className="bg-primary text-white p-4 d-flex flex-column justify-content-center" style={{ width: '50%' }}>
-          <h1 className="mb-3">KisanKart (KK)</h1>
-          <p>Reset your password to continue accessing your account.</p>
-          <div className="mt-auto">
-            <video autoPlay loop muted className="w-100" style={{ borderRadius: '8px' }}>
+   return (
+    <div className="container vh-100 d-flex align-items-center justify-content-center bg-light">
+      <div className="row shadow rounded bg-white w-100" style={{ maxWidth: 900 }}>
+        {/* Left Section */}
+        <div className="col-12 col-md-6 bg-primary text-white p-4 d-flex flex-column justify-content-center align-items-center">
+          <h1 className="mb-3 text-center">KisanKart (KK)</h1>
+          <p className="text-center">Reset your password to continue accessing your account.</p>
+          <div className="mt-auto w-100 d-flex justify-content-center">
+            <video autoPlay loop muted className="w-100" style={{ borderRadius: '8px', maxHeight: 200 }}>
               <source src="./images/ForgotPassword.mp4" type="video/mp4" />
               Your browser does not support the video tag.
             </video>
           </div>
         </div>
 
-        <div className="p-4" style={{ width: '50%' }}>
-          <h2 className="mb-3">Forgot Password</h2>
+        {/* Right Section */}
+        <div className="col-12 col-md-6 p-4">
+          <h2 className="mb-3 text-center">Forgot Password</h2>
           <form onSubmit={isVerified ? handleResetPassword : handleVerify}>
             <div className="mb-3">
               <label>Email Address</label>
