@@ -31,16 +31,27 @@ export default function Login() {
     }
   };
 
- return (
+  
+  return (
     <div className="container vh-100 d-flex align-items-center justify-content-center bg-light">
       <div className="row shadow rounded bg-white w-100" style={{ maxWidth: 800 }}>
         {/* Left Section */}
         <div className="col-12 col-md-6 bg-primary text-white p-4 d-flex flex-column justify-content-center align-items-center">
           <h1 className="mb-3 text-center">KisanKart (KK)</h1>
           <p className="text-center">Get access to your Orders, Wishlist, and Recommendations</p>
-          <div className="mt-auto w-100 d-flex justify-content-center">
-            <img src="./images/farmer-consumer.webp" alt="Illustration" className="img-fluid" style={{ maxHeight: 180 }} />
-          </div>
+          <div className="w-100 d-flex justify-content-center align-items-center mt-4">
+  <img
+    src="./images/farmer-consumer.webp"
+    alt="Illustration"
+    className="img-fluid"
+    style={{
+      maxHeight: '250px',
+      width: '100%',
+      objectFit: 'contain'
+    }}
+  />
+</div>
+
         </div>
 
         {/* Right Section */}
@@ -99,4 +110,5 @@ export default function Login() {
       </div>
     </div>
   );
+
 }
