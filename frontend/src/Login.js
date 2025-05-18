@@ -40,17 +40,17 @@ export default function Login() {
           <h1 className="mb-3 text-center">KisanKart (KK)</h1>
           <p className="text-center">Get access to your Orders, Wishlist, and Recommendations</p>
           <div className="w-100 d-flex justify-content-center align-items-center mt-4">
-  <img
-    src="./images/farmer-consumer.webp"
-    alt="Illustration"
-    className="img-fluid"
-    style={{
-      maxHeight: '250px',
-      width: '100%',
-      objectFit: 'contain'
-    }}
-  />
-</div>
+            <img
+              src="./images/farmer-consumer.webp"
+              alt="Illustration"
+              className="img-fluid"
+              style={{
+                maxHeight: '250px',
+                width: '100%',
+                objectFit: 'contain'
+              }}
+            />
+          </div>
 
         </div>
 
