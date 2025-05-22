@@ -14,7 +14,7 @@ const Vegetables = ({ cartItems, updateCart }) => {
     { id: 19, title: "Carrot", price: 80, image: "/images/CarrotImage.jpg" },
     { id: 20, title: "Cauliflower", price: 80, image: "/images/CauliflowerImage.jpg" },
     { id: 21, title: "Cabbage", price: 80, image: "/images/CabbageImage.jpg" },
-    { id: 22, title: "Spinach", price: 80, image: "/images/spinachImage.jpg" },
+    { id: 22, title: "Spinach", price: 80, image: "/images/SpinachImage.jpg" },
     { id: 23, title: "Capsicum", price: 80, image: "/images/CapsicumImage.jpg" },
     { id: 24, title: "Ladyfinger", price: 80, image: "/images/LadyFingerImage.jpg" },
     { id: 25, title: "Brinjal", price: 80, image: "/images/BrinjalImage.jpg" },
