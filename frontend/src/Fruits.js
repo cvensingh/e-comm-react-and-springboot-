@@ -10,7 +10,7 @@ const Fruits = ({ cartItems, updateCart }) => {
     //{ id: 40, title: "Bananas", price: 50, image: "/images/BananaImage.jpg" },
     { id: 41, title: "Grapes", price: 70, image: "/images/GrapesImage.jpg" },
     { id: 42, title: "Oranges", price: 30, image: "/images/OrangeImage.jpg" },
-    { id: 43, title: "Pineapples", price: 80, image: "/images/PineappleImage.jpg" },
+    { id: 43, title: "Pineapples", price: 80, image: "/images/PineAppleImage.jpg" },
     { id: 44, title: "Guava", price: 80, image: "/images/GuvavaImage.jpg" },
     { id: 45, title: "Mangoes", price: 80, image: "/images/MangoImage.jpg" },
     { id: 46, title: "Papaya", price: 80, image: "/images/PapayaImage.jpg" },
