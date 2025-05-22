@@ -6,9 +6,9 @@ const Spices = ({ cartItems, updateCart }) => {
   const navigate = useNavigate();
   const products = [
     { id: 70, title: "Turmeric", price: 30, image: "/images/TurmericIMage.jpg" },
-    { id: 71, title: "TejPatta", price: 30, image: "/images/TejpattaImage.jpg" },
-    { id: 72, title: "Coriander", price: 50, image: "/images/Corianderimage.jpg" },
-    { id: 73, title: "Raw Turmeric", price: 60, image: "/images/RawTurmericImage.jpg" },
+    { id: 71, title: "TejPatta", price: 30, image: "/images/Tejpattaimage.jpg" },
+    { id: 72, title: "Coriander", price: 50, image: "/images/Corrianderimage.jpg" },
+    { id: 73, title: "Raw Turmeric", price: 60, image: "/images/TurmericImage.jpg" },
     { id: 74, title: "Fenugreek", price: 70, image: "/images/FenuGreekImage.jpg" },
     { id: 75, title: "Jira", price: 70, image: "/images/CuminImage.jpg" },
     { id: 76, title: "Red Chilli", price: 70, image: "/images/RedChilliImage.jpg" },
