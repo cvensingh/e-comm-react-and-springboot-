@@ -11,7 +11,7 @@ const Nuts = ({ cartItems, updateCart }) => {
     { id: 9, title: "Pumpkin seeds", price: 30, image: "/images/PumpkinSeedImage.jpg" },
     { id: 10, title: "Walnuts", price: 80, image: "/images/WalnutImage.jpg" },
     { id: 11, title: "Peanuts", price: 80, image: "/images/PeanutImage.jpg" },
-    { id: 12, title: "Sharifa", price: 80, image: "/images/custardAppleImage.jpg" },
+    { id: 12, title: "Sharifa", price: 80, image: "/images/CustardAppleImage.jpg" },
     { id: 13, title: "Raisins", price: 80, image: "/images/RaisinImage.jpg" },
   ];
 
