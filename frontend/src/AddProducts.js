@@ -10,7 +10,7 @@ const AddProducts = () => {
     {
       title: "Food Grains",
       description: "Add your wheat, rice, soyabeans, maize, etc.",
-      image: "/images/FoodGrainsImage.jpg",
+      image: "/images/foodGrainsImage.jpg",
     },
     {
       title: "Nuts",
