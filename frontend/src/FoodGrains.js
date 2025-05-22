@@ -8,7 +8,7 @@ const FoodGrains = ({ cartItems, updateCart }) => {
   const products = [
     { id: 1, title: "Wheat", price: 40, image: "/images/WheatImage.jpg" },
     { id: 2, title: "Rice", price: 50, image: "/images/RiceImage.jpg" },
-    { id: 3, title: "Soyabeans", price: 70, image: "/images/soyabeanImage.jpg" },
+    { id: 3, title: "Soyabeans", price: 70, image: "/images/SoyabeanImage.jpg" },
     { id: 4, title: "Maize", price: 30, image: "/images/MaizeImage.jpg" },
     { id: 5, title: "Arhar", price: 80, image: "/images/ArharImage.jpg" },
   ];
