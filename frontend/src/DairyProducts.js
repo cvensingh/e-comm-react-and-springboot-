@@ -17,8 +17,8 @@ const DairyProducts = ({ cartItems, updateCart }) => {
     { id: 65, title: "Cow Curd", price: 300, image: "/images/CowCurdImage.jpg" },
     { id: 66, title: "Butter", price: 300, image: "/images/ButterImage.jpg" },
     { id: 67, title: "Buffalo Curd", price: 300, image: "/images/BuffalowCurdImage.jpg" },
-    { id: 68, title: "Buffalo Ghee", price: 300, image: "/images/BuffalowgheeImage.jpg" },
-    { id: 69, title: "Cow Ghee", price: 300, image: "/images/CowgheeImage.jpg" },
+    { id: 68, title: "Buffalo Ghee", price: 300, image: "/images/BuffalowGheeImage.jpg" },
+    { id: 69, title: "Cow Ghee", price: 300, image: "/images/CowGheeImage.jpg" },
   ];
 
   const cartCount = cartItems.reduce((acc, item) => acc + item.quantity, 0);
