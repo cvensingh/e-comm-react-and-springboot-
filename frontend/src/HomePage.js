@@ -85,7 +85,7 @@ export default function HomePage() {
               alt="Logo"
               style={{ width: "40px", marginRight: "10px" }}
             />
-            Kisan Kart
+            Shivendra Singh
           </a>
           <button
             className="navbar-toggler"
