@@ -67,7 +67,7 @@ export default function HomePage() {
       setShowAdminModal(false);
       navigate("/AdminPage");
     } else {
-      setAdminError("Wrong admin password! Password is hardcoded, plz go and find in code snippet.");
+      setAdminError("Wrong admin password! Password is hardcoded, plz find in code snippet.");
       setTimeout(() => {
         setAdminError("");
       }, 3000);
@@ -190,13 +190,13 @@ export default function HomePage() {
             alignItems: "center",
           }}
         >
-          <div className="container">
+          <div className="container" style={{ position: "relative", zIndex: 2 }}>
             <h1 className="display-4 fw-bold hero-title" style={{ minHeight: "5rem", display: "flex", justifyContent: "center", alignItems: "center" }}>{currentText}</h1>
             <p className="lead fw-bold hero-subtitle">Empowering Farmers, Enriching Lives</p>
             <div className="d-flex justify-content-center gap-3 hero-buttons">
-              <button className="btn btn-success btn-lg" onClick={() => navigate("/MarketPlace")}>Marketplace</button>
-              <button className="btn btn-warning btn-lg" onClick={() => navigate("/create-account")}>Register</button>
-              <button className="btn btn-primary btn-lg" onClick={() => navigate("/AddProducts")}>Add Product</button>
+              <button type="button" className="btn btn-success btn-lg" onClick={() => navigate("/MarketPlace")}>MarketPlace</button>
+              <button type="button" className="btn btn-warning btn-lg" onClick={() => navigate("/create-account")}>Register</button>
+              <button type="button" className="btn btn-primary btn-lg" onClick={() => navigate("/AddProducts")}>Add Product</button>
             </div>
           </div>
         </div>
